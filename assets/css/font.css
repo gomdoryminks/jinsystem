@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* 
+    U+0020-007E : 전체
+    U+AC00-U+D7A3 : 한글
+    U+0030-0039 : 숫자
+    U+0041-005A : 대문자
+    U+0061-007A : 소문자
+    U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E : 특수문자
+*/
+
+@font-face {
+	font-family: 'JejuGothic';
+	font-weight: normal;
+	src: url('../fonts/JejuGothic.eot');
+	src: url('../fonts/JejuGothic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/JejuGothic.woff') format('woff'),
+         url('../fonts/JejuGothic.woff2') format('woff2'),
+		 url('../fonts/JejuGothic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'JejuHallasan';
+	font-weight: normal;
+	src: url('../fonts/JejuHallasan.eot');
+	src: url('../fonts/JejuHallasan.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/JejuHallasan.woff') format('woff'),
+         url('../fonts/JejuHallasan.woff2') format('woff2'),
+		 url('../fonts/JejuHallasan.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'JejuMyeongjo';
+	font-weight: normal;
+	src: url('../fonts/JejuMyeongjo.eot');
+	src: url('../fonts/JejuMyeongjo.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/JejuMyeongjo.woff') format('woff'),
+         url('../fonts/JejuMyeongjo.woff2') format('woff2'),
+		 url('../fonts/JejuMyeongjo.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 300;
+	src: url('../fonts/NanumSquareL.eot');
+	src: url('../fonts/NanumSquareL.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/NanumSquareL.woff') format('woff'),
+		 url('../fonts/NanumSquareL.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 400;
+	src: url('../fonts/fontNanumSquareR.eot');
+	src: url('../fonts/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/NanumSquareR.woff') format('woff'),
+		 url('../fonts/NanumSquareR.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 600;
+	src: url('../fonts/NanumSquareB.eot');
+	src: url('../fonts/NanumSquareB.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/NanumSquareB.woff') format('woff'),
+		 url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 800;
+	src: url('../fonts/NanumSquareEB.eot');
+	src: url('../fonts/NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/NanumSquareEB.woff') format('woff'),
+		 url('../fonts/NanumSquareEB.ttf') format('truetype');
+}
+
